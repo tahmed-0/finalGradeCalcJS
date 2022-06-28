@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Grade</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div class = "container">
+
+        <h1>Final Grade Calculator</h1>
+
+        <h3 id ="result"></h3>
+
+        <div class = "row">
+            <Label>Your current grade</Label>
+            <input id = "current" type = text placeholder="%">
+            <br/> <br/>
+
+            <Label>The grade you want</Label>
+            <input id = "desire" type = text placeholder="%">
+            <br/> <br/> 
+
+            <Label>Your final is worth</Label>
+            <input id = "percentage" type = text placeholder="%">
+        
+        </div>
+
+        <div class="btn-group"> 
+            <br/>
+            <button id = "enter" onclick="calculate()">Enter</button>
+            <button id = "clear" onclick="clearFields()">Clear</button>
+        </div>
+
+    </div>
+
+
+    
+
+
+    <script src = "app.js"></script>
+    
+</body>
+</html>
